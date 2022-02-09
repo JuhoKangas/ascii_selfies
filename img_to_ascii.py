@@ -9,7 +9,7 @@ img = Image.open(image_path)
 width, height = img.size
 aspect_ratio = height/width
 new_width = 100
-new_height = aspect_ratio * new_width * 0.4
+new_height = aspect_ratio * new_width * 0.35
 img = img.resize((new_width, int(new_height)))
 # new size of image
 # print(img.size)
